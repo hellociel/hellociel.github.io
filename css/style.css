@@ -429,15 +429,15 @@ a.icon {
 .header-three,
 .header-four,
 .header-five {
-  height: 42vh !important;
-  min-height: 420px;
+  height: 30vh !important;
+  min-height: 300px;
   padding-top: 120px !important;
 }
 
 .header-one {
   background: url("../images/header-bg.jpg") no-repeat;
-  height: 60vh !important;
-  min-height: 520px;
+  height: 30vh !important;
+  min-height: 300px;
   padding-top: 150px !important;
 }
 .header-two {
@@ -710,51 +710,12 @@ a.icon {
   padding-right: 10px;
 }
 
-#contact #map-canvas {
-  border: none;
-  width: 100%;
-  height: 300px;
-  margin-top: 40px;
-}
-
-#contact .contact-form {
-  padding-top: 14px;
-}
-
-#contact .form-control {
-  background: transparent;
-  border: 1px solid #eee;
-  border-radius: 0px;
-  box-shadow: none;
-  font-size: 16px;
-  margin-bottom: 16px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:hover {
-  border-color: #f0f0f0;
-}
-
 #contact textarea {
   min-height: 100px;
 }
 
 #contact input {
-  height: 50px;
-}
-
-#contact input[type="submit"] {
-  background: #111112;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  transition: all 0.4s ease-in-out;
-  margin-top: 10px;
-}
-
-#contact input[type="submit"]:hover {
-  background: #444;
+  height: 70px;
 }
 
 .contact-submit {
@@ -771,6 +732,8 @@ a.icon {
 /* footer section styles
 /* ========================================== */
 footer {
+  margin-top: 250px;
+  margin-bottom: 0;
   background: #141414;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -823,10 +786,6 @@ footer {
   #contact .col-md-4 p {
     font-size: 12px;
   }
-
-  #contact #map-canvas {
-    margin-bottom: 60px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -840,12 +799,12 @@ footer {
   .header-four,
   .header-five {
     min-height: 380px;
-    padding-top: 80px !important;
+    padding-top: 70px !important;
   }
 
   #about .col-md-4,
   #single-project .col-md-3 {
-    padding-bottom: 32px;
+    padding-bottom: 12px;
   }
 }
 
