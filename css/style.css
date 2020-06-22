@@ -846,6 +846,10 @@ footer {
   font-weight: 400;
   background-color: #b3cdfc;
   border-radius: 0.7em;
-  padding: 10px 20px;
+  padding: 10px 30px;
   margin: 30px 20px 20px 20px;
+}
+
+.main-button:hover {
+  background-color: #557ec9;
 }
