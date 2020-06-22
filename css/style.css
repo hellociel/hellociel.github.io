@@ -163,8 +163,8 @@ nav a {
 
 .navbar {
   background: transparent;
-  height: 94px;
-  max-height: 94px;
+  height: 100px;
+  max-height: 100px;
   margin: 0;
   border-radius: 0;
   transition: all 0.3s ease;
@@ -263,6 +263,7 @@ nav ul.right {
 a.icon {
   font-size: 32px;
   padding-right: 20px;
+  color: grey;
 }
 
 .intro-inner {
@@ -406,7 +407,7 @@ a.icon {
   background-size: cover;
   background-position: center center;
   text-align: center;
-  padding-top: 130px;
+  padding-top: 80px;
   padding-bottom: 100px;
 }
 
@@ -436,7 +437,7 @@ a.icon {
 
 .header-one {
   background: url("../images/header-bg.jpg") no-repeat;
-  height: 30vh !important;
+  height: 50vh !important;
   min-height: 300px;
   padding-top: 150px !important;
 }
