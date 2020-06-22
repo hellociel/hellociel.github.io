@@ -839,3 +839,13 @@ footer {
     top: 50%;
   }
 }
+
+.main-button {
+  border: none;
+  color: white;
+  font-weight: 400;
+  background-color: #b3cdfc;
+  border-radius: 0.7em;
+  padding: 10px 20px;
+  margin: 30px 20px 20px 20px;
+}
