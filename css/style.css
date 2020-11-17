@@ -69,8 +69,8 @@ p {
 }
 
 a {
-  outline: none;
-  text-decoration: none;
+  /* outline: none; */
+  text-decoration: underline;
 }
 a,
 a:hover,
