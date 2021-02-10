@@ -1936,7 +1936,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background-color: rgba(144, 144, 144, 0.25);
+  background-color: rgba(158, 194, 198, 0.25);
   border-radius: 3px;
   border: none;
   color: inherit;
@@ -2584,7 +2584,7 @@ input[type='reset'].primary,
 input[type='button'].primary,
 button.primary,
 .button.primary {
-  background-color: #ed4933;
+  background-color: #3d609d;
   box-shadow: none !important;
   color: #ffffff !important;
 }
@@ -2594,7 +2594,11 @@ input[type='reset'].primary:hover,
 input[type='button'].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #ef5e4a !important;
+  background-color: #ffffff;
+  box-shadow: none !important;
+  font-weight: bolder;
+  border: none;
+  color: #10689f !important;
 }
 
 input[type='submit'].primary:active,
@@ -2602,7 +2606,9 @@ input[type='reset'].primary:active,
 input[type='button'].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: #eb341c !important;
+  background-color: #b590fe !important;
+  font-weight: bolder;
+  background-color: #ffffff;
 }
 
 input[type='submit'].disabled,
@@ -2899,7 +2905,7 @@ button:disabled,
 }
 
 .wrapper.style1 {
-  background-color: #21b2a6;
+  background-color: #3d609d;
   color: #c8ece9;
 }
 
@@ -2929,7 +2935,7 @@ button:disabled,
 }
 
 .wrapper.style1 header p {
-  color: #a6e0db;
+  color: #3d609d;
 }
 
 .wrapper.style1 header.major h2,
@@ -3069,7 +3075,7 @@ button:disabled,
 }
 
 .wrapper.style3 {
-  background-color: #505393;
+  background-color: #3d609d;
   color: #d3d4e4;
 }
 
@@ -3784,7 +3790,7 @@ body.is-menu-visible #menu {
   -ms-transition-delay: 1.25s;
   transition-delay: 1.25s;
   content: '';
-  background: #2e3842;
+  background: #3d609d;
   display: block;
   width: 100%;
   height: 100%;
@@ -4101,6 +4107,7 @@ body.is-mobile.landing #footer {
 .image-cropper {
   margin: auto;
   margin-bottom: 30px;
+  padding: 50px;
   width: 300px;
   height: 300px;
   overflow: hidden;
