@@ -4119,3 +4119,8 @@ body.is-mobile.landing #footer {
   margin: -50px -400px;
   height: 130%;
 }
+
+.fab fa-linkedin {
+  background: white;
+  color: #007bb5;
+}
