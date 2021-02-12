@@ -3966,7 +3966,7 @@ body.is-mobile #main > header {
 
 #footer {
   padding: 6em 0 4em 0;
-  background-color: #1d242a;
+  background-color: #7668ab;
   text-align: center;
 }
 
@@ -4123,4 +4123,17 @@ body.is-mobile.landing #footer {
 .fab fa-linkedin {
   background: white;
   color: #007bb5;
+}
+
+.stack {
+  font-size: 14px;
+  margin-top: 0;
+  font-style: italic;
+}
+
+.github {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: lowercase;
+  margin-top: 0;
 }
