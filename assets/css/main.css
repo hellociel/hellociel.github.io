@@ -3751,7 +3751,7 @@ body.is-menu-visible #menu {
   -ms-transform: translateY(0);
   transform: translateY(0);
   border: none;
-  bottom: 0;
+  bottom: 0.3em;
   color: inherit;
   font-size: 0.8em;
   height: 8.5em;
@@ -3779,6 +3779,7 @@ body.is-menu-visible #menu {
   height: 1.5em;
   left: 50%;
   margin: 0 0 0 -0.75em;
+
   position: absolute;
   width: 1.5em;
 }
