@@ -1,1 +1,1 @@
-Ciel Kim - Software Engineer Porftolio
+Ciel Kim - Software Engineering & UX/UI Design Porftolio
